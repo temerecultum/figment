@@ -6,37 +6,38 @@ const IndexPage = () => (
   <>
 
     <Head>
-      <title>KusakiDesu</title>
+      <title>Lio</title>
       <meta name="theme-color" content="#ffffff" />
-      <meta property="og:title" content="Kusaki" />
+      <meta property="og:title" content="Lio" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://puma.himbo.cat" />
-      <script async defer data-website-id="94288e75-da3b-48a9-abb9-e878fe8c4028" src="https://stats.himbo.cat/umami.js"></script>
-      <meta property="og:description" content="Graphic Designer / DJ / Sneakerhead / Fashion Fur / Record Collector" />
+      <meta property="og:url" content="https://himbo.cat" />
+      {/* <script async defer data-website-id="94288e75-da3b-48a9-abb9-e878fe8c4028" src="https://stats.himbo.cat/umami.js"></script> */}
+      <meta property="og:description" content="Designer / Developer / Artist" />
       <meta property="og:image" content="/assets/kitty.jpg" />
 
-      <meta name="description" content="Graphic Designer / DJ / Sneakerhead / Fashion Fur / Record Collector" />
+      <meta name="theme-color" content="#EE1B22" />
+
+      <meta name="description" content="Designer / Developer / Artist" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content="/assets/kitty.jpg" />
-      <meta name="twitter:creator" content="@KusakiDesu" />
+      <meta name="twitter:creator" content="@HimboLion" />
     </Head>
     <div>
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
-        <Link href="https://lio.click/twitter">
+        {/* <Link href="https://lio.click/twitter">
           <a className="absolute top-0 left-0 ml-3 mt-3">
             <Image height={156 / 3} width={110 / 3} src="/assets/caecus.png" className="mix-blend-exclusion" alt="" />
           </a>
-        </Link>
-        <article className="p-11 bg-gradient-to-r from-pink-300 to-pink-500 flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center md:text-left sm:text-center rounded-none">
-          <div className="md:hidden sm:inline">
-            <Image height={476 / 2} width={476 / 2} className="md:w-80 w-1.5 rounded-full" src="/assets/kitty.jpg" alt="" />
-          </div>
-          <div className="p-11 my-auto">
-            <Image width={256 / 1.5} height={96 / 1.5} src="/assets/logo.png" alt="Kusaki Logo" className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
-            <p className="mt-2 font-semibold">
-              Graphic Designer / DJ / Sneakerhead / Fashion Fur / Record Collector
+        </Link> */}
+
+        <article className="p-11 mix-blend-difference bg-red-700  flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center md:text-left sm:text-center rounded-none relative">
+
+          <Image height={156 / 1.5} width={110 / 1.5} src="/assets/caecus.png" alt="Caecus Logo" className="md:w-1/3 " />
+          <div className="ml-8 p-1">
+            <p className="text-white mt-2 font-semibold">
+              Graphic Designer / Developer / Artist
             </p>
-            <div className="flex sm:justify-center md:justify-start justify-evenly">
+            <div className="flex text-white justify-start">
               <ul className="flex mt-3">
                 {Socials.map((social, index) => {
                   return (
@@ -52,7 +53,7 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="hidden sm:hidden md:inline">
-            <Image height={476 / 2} width={476 / 2} className="md:w-80 rounded-full" src="/assets/kitty.jpg" alt="" />
+            {/* <Image height={476 / 2} width={476 / 2} className="md:w-80 rounded-full" src="/assets/kitty.jpg" alt="" /> */}
           </div>
 
         </article>
