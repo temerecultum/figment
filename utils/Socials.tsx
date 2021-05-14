@@ -1,4 +1,4 @@
-import { Twitter, PicartoDotTv, Furaffinity, Telegram, KoFi, Instagram, Mixcloud, Gmail } from "@icons-pack/react-simple-icons";
+import { Twitter, Monster, Github, Githubsponsors } from "@icons-pack/react-simple-icons";
 import { ReactChild } from 'react'
 
 type Social = {
@@ -7,13 +7,15 @@ type Social = {
   icon: ReactChild
 }
 const Socials: Social[] = [
-  { name: "Email", string: "mailto:puma@himbo.cat", icon: <Gmail /> },
-  { name: "Twitter", string: "https://twitter.com/kusakidesu", icon: <Twitter /> },
-  { name: "Picarto", string: "https://picarto.tv/kusaki", icon: <PicartoDotTv /> },
-  { name: "FurAffinity", string: "https://furaffinity.com/user/ideekay03", icon: <Furaffinity /> },
-  { name: "Ko-Fi", string: "https://ko-fi.com/kusakidesu", icon: <KoFi /> },
-  { name: "Telegram", string: "https://t.me/kusakidesu", icon: <Telegram /> },
-  { name: "Mixcloud", string: "https://mixcloud.com/djtakenofficial", icon: <Mixcloud /> },
-  { name: "Instagram", string: "https://instagr.am/kusakidesu_", icon: <Instagram /> }
+  // @ts-ignore
+  { name: "Email", string: "mailto:lion@himbo.cat", icon: <Monster title="Email" /> },
+  { name: "Twitter", string: "https://twitter.com/himbolion", icon: <Twitter /> },
+  { name: "Github", string: "https://github.com/hokkqi", icon: <Github /> },
+  // @ts-ignore
+  { name: "Support ", string: "https://lio.cat/support", icon: <Githubsponsors title="Support" /> },
+  // { name: "Github", string: "https://github.com/hokkqi", icon: <Github /> },
+  // { name: "Picarto", string: "https://picarto.tv/himbolion", icon: <PicartoDotTv /> },
+  // { name: "Telegram", string: "https://t.me/kusakidesu", icon: <Telegram /> },
+
 ]
 export default Socials
