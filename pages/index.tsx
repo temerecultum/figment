@@ -24,12 +24,6 @@ const IndexPage = () => (
     </Head>
     <div>
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
-        {/* <Link href="https://lio.click/twitter">
-          <a className="absolute top-0 left-0 ml-3 mt-3">
-            <Image height={156 / 3} width={110 / 3} src="/assets/caecus.png" className="mix-blend-exclusion" alt="" />
-          </a>
-        </Link> */}
-
         <article className="p-11 mix-blend-difference bg-red-700  flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center md:text-left sm:text-center rounded-none relative">
 
           <Image height={156 / 1.5} width={110 / 1.5} src="/assets/caecus.png" alt="Caecus Logo" className="md:w-1/3 " />
@@ -46,16 +40,11 @@ const IndexPage = () => (
                         <a>{social.icon}</a>
                       </Link>
                     </li>
-
                   )
                 })}
               </ul>
             </div>
           </div>
-          <div className="hidden sm:hidden md:inline">
-            {/* <Image height={476 / 2} width={476 / 2} className="md:w-80 rounded-full" src="/assets/kitty.jpg" alt="" /> */}
-          </div>
-
         </article>
       </div>
     </div>
