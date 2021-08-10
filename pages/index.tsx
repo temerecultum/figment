@@ -24,7 +24,7 @@ const IndexPage = () => (
     </Head>
     <div>
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
-        <article className="p-11 mix-blend-difference bg-red-700  flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center md:text-left sm:text-center rounded-none relative">
+        <article className="p-11 mix-blend-difference bg-red-700  flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center text-left  rounded-none relative">
 
           <Image height={156 / 1.5} width={110 / 1.5} src="/assets/caecus.png" alt="Caecus Logo" className="md:w-1/3 " />
           <div className="ml-8 p-1">
@@ -44,6 +44,13 @@ const IndexPage = () => (
                 })}
               </ul>
             </div>
+            {/* <div>
+              <p className="font-sans text-white mt-4 font-bold justify-start">
+                <Link href="https://kji.tf/portfolio">
+                  <a >Portfolio</a>
+                </Link>
+              </p>
+            </div> */}
           </div>
         </article>
       </div>
