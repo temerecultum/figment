@@ -17,9 +17,11 @@
     "react-dom": "^17.0.1",
     "sass": "^1.32.12",
     "simple-icons": "^4.23.0",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.1.2",
+    "use-lanyard": "^0.0.5"
   },
   "devDependencies": {
+    "@types/next": "^9.0.0",
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",

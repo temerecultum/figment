@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Head from "next/head"
 import Socials from "../utils/Socials"
+import { Lanyard } from '../utils/lanyard'
+
 const IndexPage = () => (
   <>
 
@@ -24,7 +26,7 @@ const IndexPage = () => (
     </Head>
     <div>
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
-        <article className="p-11 mix-blend-difference bg-red-700  flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center text-left  rounded-none relative">
+        <article className="p-11 mix-blend-difference bg-red-600 flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center text-left rounded-none relative">
 
           <Image height={156 / 1.5} width={110 / 1.5} src="/assets/caecus.png" alt="Caecus Logo" className="md:w-1/3 " />
           <div className="ml-8 p-1">
@@ -53,8 +55,10 @@ const IndexPage = () => (
             </div> */}
           </div>
         </article>
+        <Lanyard />
       </div>
     </div>
+
 
   </>
 )
