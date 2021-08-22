@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Head from "next/head"
 import Socials from "../utils/Socials"
-import { Lanyard } from '../utils/lanyard'
+// import { Lanyard } from '../utils/lanyard'
 
 const IndexPage = () => (
   <>
@@ -55,7 +55,7 @@ const IndexPage = () => (
             </div> */}
           </div>
         </article>
-        <Lanyard />
+        {/* <Lanyard /> */}
       </div>
     </div>
 
