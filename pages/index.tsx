@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Head from "next/head"
 import Socials from "../utils/Socials"
-// import { Lanyard } from '../utils/lanyard'
+import { Lanyard } from '../utils/lanyard'
 
 const IndexPage = () => (
   <>
@@ -14,12 +14,12 @@ const IndexPage = () => (
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://himbo.cat" />
       {/* <script async defer data-website-id="94288e75-da3b-48a9-abb9-e878fe8c4028" src="https://stats.himbo.cat/umami.js"></script> */}
-      <meta property="og:description" content="Designer / Developer / Artist" />
+      <meta property="og:description" content="Developer / Graphic Designer / Artist" />
       <meta property="og:image" content="/assets/kitty.jpg" />
 
       <meta name="theme-color" content="#EE1B22" />
 
-      <meta name="description" content="Designer / Developer / Artist" />
+      <meta name="description" content="Developer / Graphic Designer / Artist" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content="/assets/kitty.jpg" />
       <meta name="twitter:creator" content="@HimboLion" />
@@ -28,10 +28,13 @@ const IndexPage = () => (
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
         <article className="p-11 mix-blend-difference bg-red-600 flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center text-left rounded-none relative">
 
-          <Image height={156 / 1.5} width={110 / 1.5} src="/assets/caecus.png" alt="Caecus Logo" className="md:w-1/3 " />
+          <Image height={156 / 1.5} width={110 / 1.5} src="/assets/caecus.png" alt="Caecus Logo" className="md:w-1/3 pb-1" />
           <div className="ml-8 p-1">
             <p className="text-white mt-2 font-semibold">
-              Graphic Designer / Developer / Artist
+              Lio Young
+            </p>
+            <p className="text-white mt-2 font-semibold">
+              Developer / Graphic Designer / Artist
             </p>
             <div className="flex text-white justify-start">
               <ul className="flex mt-3">
@@ -55,7 +58,7 @@ const IndexPage = () => (
             </div> */}
           </div>
         </article>
-        {/* <Lanyard /> */}
+        <Lanyard />
       </div>
     </div>
 
