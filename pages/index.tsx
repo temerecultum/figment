@@ -58,7 +58,10 @@ const IndexPage = () => (
             </div> */}
           </div>
         </article>
-        <Lanyard />
+        <div className="font-sans text-white font-thin italic absolute bottom-0 left-0 text-left p-1">
+
+          <Lanyard />
+        </div>
       </div>
     </div>
 
