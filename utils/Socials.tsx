@@ -10,7 +10,7 @@ const Socials: Social[] = [
   // @ts-ignore
   { name: "Email", string: "mailto:lion@himbo.cat", icon: <Monster title="Email" /> },
   { name: "Twitter", string: "https://twitter.com/himbolion", icon: <Twitter /> },
-  { name: "Github", string: "https://github.com/hokkqi", icon: <Github /> },
+  { name: "Github", string: "https://github.com/himbolion", icon: <Github /> },
   // @ts-ignore
   { name: "Support ", string: "https://lio.cat/support", icon: <Githubsponsors title="Support" /> },
   // { name: "Github", string: "https://github.com/hokkqi", icon: <Github /> },
