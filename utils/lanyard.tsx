@@ -12,7 +12,7 @@ export function Lanyard() {
 
         return (
             <>
-                <div className="font-sans text-white font-thin italic absolute top-0 left-0 text-left p-1">
+                <div className="font-sans text-white font-thin italic absolute bottom-0 left-0 text-left p-1">
                     {/* <Image width="100px" height="100px" src={activity.spotify?.album_art_url}></Image> */}
                     {/* <h1 className="sm:text-xs lg:text-lg">Currently Listening to</h1> */}
 
