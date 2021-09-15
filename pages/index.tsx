@@ -12,17 +12,17 @@ const IndexPage = () => (
       <meta name="theme-color" content="#ffffff" />
       <meta property="og:title" content="Lio" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://himbo.cat" />
+      <meta property="og:url" content="https://teme.re" />
       {/* <script async defer data-website-id="94288e75-da3b-48a9-abb9-e878fe8c4028" src="https://stats.himbo.cat/umami.js"></script> */}
       <meta property="og:description" content="Developer / Graphic Designer / Artist" />
-      <meta property="og:image" content="/assets/kitty.jpg" />
+      <meta property="og:image" content="/assets/caecus.png" />
 
       <meta name="theme-color" content="#EE1B22" />
 
       <meta name="description" content="Developer / Graphic Designer / Artist" />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:image" content="/assets/kitty.jpg" />
-      <meta name="twitter:creator" content="@HimboLion" />
+      <meta name="twitter:image" content="/assets/caecus.png" />
+      <meta name="twitter:creator" content="@temerecultum" />
     </Head>
     <div>
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
@@ -49,13 +49,13 @@ const IndexPage = () => (
                 })}
               </ul>
             </div>
-            {/* <div>
+            <div>
               <p className="font-sans text-white mt-4 font-bold justify-start">
-                <Link href="https://kji.tf/portfolio">
+                <Link href="https://wrwlf.de">
                   <a >Portfolio</a>
                 </Link>
               </p>
-            </div> */}
+            </div>
           </div>
         </article>
         <div className="font-sans text-white font-thin italic absolute text-left p-1" style={{
