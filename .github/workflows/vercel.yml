@@ -22,7 +22,7 @@ jobs:
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
           ALIAS_DOMAINS: |
             teme.re
-            temere.vercel.app
+            teme-re.vercel.app
             {BRANCH}-{SHA}.teme.re
-            {BRANCH}-{SHA}-temere.vercel.app
-          PR_PREVIEW_DOMAIN: "{BRANCH}-{SHA}-temere.vercel.app"
+            {BRANCH}-{SHA}-teme-re.vercel.app
+          PR_PREVIEW_DOMAIN: "{BRANCH}-{SHA}-teme-re.vercel.app"
