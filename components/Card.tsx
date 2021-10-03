@@ -5,15 +5,12 @@ const Card = ({ src, link, title, subtitle }) => {
     return (
         <>
             <div style={{
-                // boxShadow: "0 5px 8px 0 rgba(0,0,0,0.2)",
                 backgroundColor: "#fc3232",
                 transition: "0.3s",
-                maxWidth: "45vw",
-                maxHeight: "100%",
                 borderRadius: "10px",
-                margin: "10px",
+                // margin: "10px",
             }}
-                className="text-white"
+                className="text-white lg:max-w-xl m-2"
             >
                 <img src={src} alt="Image"
                     style={{
@@ -23,7 +20,7 @@ const Card = ({ src, link, title, subtitle }) => {
                         borderBottomRightRadius: "0px",
                         maxHeight: "100%",
                     }} />
-                <div className="sm:text-xs lg:text-lg sm:p-0 lg:p-5" style={{
+                <div className="sm:text-xs lg:text-lg sm:p-10 lg:p-5" style={{
                     padding: "20px",
                 }}>
                     <a href={link} className="">

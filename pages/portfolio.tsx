@@ -41,7 +41,7 @@ const IndexPage = () => (
                         </Link>
                     </h1>
                 </div>
-                <div className="inline-flex flex-wrap justify-center">
+                <div className="lg:flex lg:flex-wrap justify-center sm:flex">
                     {Projects.map((project, index) => {
                         return (
                             <Card link={project.link} src={project.src} title={project.title} subtitle={project.subtitle} key={index} />
