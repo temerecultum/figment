@@ -5,6 +5,10 @@ import Head from "next/head"
 // import { Lanyard } from '../utils/lanyard'
 import Card from "../components/Card"
 import Projects from '../utils/projects'
+// @ts-ignore
+import 'tailwindcss/tailwind.css'
+import styles from '../styles/Card.module.sass'
+
 const IndexPage = () => (
     <>
 
@@ -27,12 +31,7 @@ const IndexPage = () => (
         </Head>
         <body className="cae-bgblur">
             <div className="min-h-screen">
-                <div className="navbar text-white italic"
-                    style={{
-                        fontSize: "1.5rem",
-                        padding: "1rem",
-                    }}
-                >
+                <div className={styles.card_nav}>
                     <h1>
                         <Link href="/">
                             <a>
@@ -42,6 +41,7 @@ const IndexPage = () => (
                     </h1>
                 </div>
                 <div className="lg:flex lg:flex-wrap justify-center sm:flex">
+                    {/* <div className={`${tailwind["lg:flex"]} ${tailwind["lg:flex-wrap"]} ${tailwind["justify-center"]} ${tailwind["sm:flex"]}`}> */}
                     {Projects.map((project, index) => {
                         return (
                             <Card link={project.link} src={project.src} title={project.title} subtitle={project.subtitle} key={index} />

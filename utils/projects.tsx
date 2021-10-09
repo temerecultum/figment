@@ -5,13 +5,6 @@ type Project = {
     subtitle: string
 }
 const Projects: Project[] = [
-
-    {
-        src: "/projects/sor.dog.png",
-        link: "https://sor.dog",
-        title: "YaiSor",
-        subtitle: "Linktree-esque Site for YaiSor",
-    },
     {
         src: "/projects/alx.rip.png",
         link: "https://alx.rip",
@@ -25,6 +18,17 @@ const Projects: Project[] = [
         subtitle: "Web Development for NONSTOPWORLD Charity Event",
     },
     {
+        src: "/projects/AEL.jpg",
+        link: "https://artelabore.online",
+        title: "Arte Et Labore",
+        subtitle: "Hosting AEL and AEL Projects",
+    },
+    {
+        src: "/projects/sor.dog.png",
+        link: "https://sor.dog",
+        title: "YaiSor",
+        subtitle: "Linktree-esque Site for YaiSor",
+    }, {
         src: "/projects/bastard.ink.png",
         link: "https://bastard.ink",
         title: "WOLFJAW",
