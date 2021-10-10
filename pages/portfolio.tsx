@@ -7,7 +7,7 @@ import Card from "../components/Card"
 import Projects from '../utils/projects'
 // @ts-ignore
 import 'tailwindcss/tailwind.css'
-import styles from '../styles/Card.module.sass'
+import card from '../styles/card.module.sass'
 
 const IndexPage = () => (
     <>
@@ -31,7 +31,7 @@ const IndexPage = () => (
         </Head>
         <body className="cae-bgblur">
             <div className="min-h-screen">
-                <div className={styles.card_nav}>
+                <div className={card.nav}>
                     <h1>
                         <Link href="/">
                             <a>
