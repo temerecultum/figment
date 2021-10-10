@@ -51,7 +51,7 @@ const IndexPage = () => (
             </div>
             <div>
               <p className="font-sans text-white mt-4 font-bold justify-start">
-                <Link href="https://wrwlf.de">
+                <Link href="/portfolio">
                   <a >Portfolio</a>
                 </Link>
               </p>
