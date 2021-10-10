@@ -1,0 +1,86 @@
+---
+title: ALEX HELDT
+subtitle: Web Development / Design for Alex HELD
+src: /projects/alx.rip.png
+link: https://alx.rip
+tags:
+  - Development
+  - Design
+  - Management
+  - Hosting
+
+---
+title: NONSTOPWORLD
+subtitle: Web Development for NONSTOPWOLRD Charity Event
+src: /projects/nonstop.world.png
+link: /nsw
+tags:
+  - Development
+  - Hosting
+
+---
+title: Arte Et Labore
+subtitle: Hosting AEL and AEL Projects
+link: https://artelabore.online
+src: /projects/AEL.jpg
+tags:
+  - Hosting
+
+---
+title: Novecore
+subtitle: Template Design Work for Novecore
+link: https://twitter.com/temerecultum/status/1447129432494428163
+src: /projects/novecore_design.png
+tags:
+  - Design
+---
+title: YaiSor
+subtitle: Linktree-esque Site for YaiSor
+link: https://sor.dog
+src: /projects/sor.dog.png
+tags:
+  - Hosting
+  - Development
+  - Linktree
+---
+title: WOLFJAW
+subtitle: Linktree-esque Site for WOLFJAW
+link: https://bastard.ink
+src: /projects/bastard.ink.png
+tags:
+  - Hosting
+  - Development
+  - Linktree
+  - Design
+
+---
+title: abisu.net
+subtitle: Linktree-esque Site for Abisu
+link: https://abisu.net
+src: /projects/abisu.net.png
+tags:
+  - Hosting
+  - Development
+  - Linktree
+  - Design
+
+---
+title: Elixi.re Node.JS Uploader
+subtitle: Uploader for Elixi.re Instances
+link: /elixire
+src: /projects/elixire.png
+tags:
+  - Coding
+  - Wrapper
+  - Development
+  - API
+---
+title: yiff
+subtitle: API Wrapper for Furry APIs
+link: /yiff
+src: /projects/yiff.png
+tags:
+  - Coding
+  - Wrapper
+  - Development
+  - API
