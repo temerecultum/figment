@@ -1,7 +1,7 @@
 import card from '../styles/card.module.sass'
 import "tailwindcss/tailwind.css"
 // @ts-ignore
-const Card = ({ src, link, title, subtitle }) => {
+const Card = ({ src = "/projects/placeholder.png", link = "example.com", title = "Placeholder Card", subtitle = "Placeholder Description", }) => {
 
     return (
         <>
@@ -16,10 +16,13 @@ const Card = ({ src, link, title, subtitle }) => {
 
                         <h4><b>{title}</b></h4>
                         <p>{subtitle}</p>
-                        <p className="text-black italic font-semibold">{
+                        <p className={`${card.link} text-black italic font-semibold`}>{
                             link
                                 .replace("https://", '')
-                                .replace("teme.re/nsw", 'nonstop.world')
+                                .replace("/nsw", 'nonstop.world')
+                                .replace("/elixire", 'teme.re/elixire')
+                                .replace("/yiff", 'teme.re/yiff')
+                                .replace("twitter.com/temerecultum/status/1447129432494428163", "Link to Twitter Post")
                         }
                         </p>
                     </a>
