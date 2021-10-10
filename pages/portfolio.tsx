@@ -4,10 +4,20 @@ import Head from "next/head"
 // import Socials from "../utils/Socials"
 // import { Lanyard } from '../utils/lanyard'
 import Card from "../components/Card"
-import Projects from '../utils/projects'
+// import Projects from '../utils/projects'
 // @ts-ignore
 import 'tailwindcss/tailwind.css'
 import card from '../styles/card.module.sass'
+// @ts-ignore
+import p from "../data/projects.yml"
+
+type Project = {
+    src: string,
+    title: string
+    link: string
+    subtitle: string
+    tags: string[]
+}
 
 const IndexPage = () => (
     <>
@@ -41,13 +51,14 @@ const IndexPage = () => (
                     </h1>
                 </div>
                 <div className="lg:flex lg:flex-wrap justify-center sm:flex">
-                    {/* <div className={`${tailwind["lg:flex"]} ${tailwind["lg:flex-wrap"]} ${tailwind["justify-center"]} ${tailwind["sm:flex"]}`}> */}
-                    {Projects.map((project, index) => {
+                    {[...p].map((element: Project, index) => {
+
                         return (
-                            <Card link={project.link} src={project.src} title={project.title} subtitle={project.subtitle} key={index} />
+                            <Card link={element.link} src={element.src} title={element.title} subtitle={element.subtitle} key={index} />
                         )
-                    })}
+                    })})
                 </div>
+
 
                 {/* <Lanyard /> */}
             </div>
