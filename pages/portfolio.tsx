@@ -23,9 +23,9 @@ const IndexPage = () => (
     <>
 
         <Head>
-            <title>Lio</title>
+            <title>Portfolio | TemereCultum</title>
             <meta name="theme-color" content="#ffffff" />
-            <meta property="og:title" content="Lio" />
+            <meta property="og:title" content="Portfolio | TemereCultum" />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://teme.re" />
             {/* <script async defer data-website-id="94288e75-da3b-48a9-abb9-e878fe8c4028" src="https://stats.himbo.cat/umami.js"></script> */}
