@@ -31,7 +31,7 @@ const IndexPage = () => (
           <Image height={156 / 1.5} width={110 / 1.5} src="/assets/caecus.png" alt="Caecus Logo" className="md:w-1/3 pb-1" />
           <div className="ml-8 p-1">
             <p className="text-white mt-2 font-semibold">
-              Lio Young
+              Joshua
             </p>
             <p className="text-white mt-2 font-semibold">
               Developer / Graphic Designer / Artist
