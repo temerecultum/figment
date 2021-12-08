@@ -19,14 +19,17 @@ const IndexPage = () => (
 
       <meta name="theme-color" content="#EE1B22" />
 
-      <meta name="description" content="Developer / Graphic Designer / Artist" />
+      <meta name="description" content="Developer / UI Designer / Graphic Designer" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content="/assets/caecus.png" />
       <meta name="twitter:creator" content="@temerecultum" />
     </Head>
     <div>
+      <div className="cae-overlay">
+        <img src="/assets/newbg.jpg" alt="" />
+      </div>
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
-        <article className="p-11 mix-blend-difference bg-red-600 flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center text-left rounded-none relative">
+        <article className="p-11 mix-blend-exclusion bg-red-600 flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center text-left rounded-none relative">
 
           <Image height={156 / 1.5} width={110 / 1.5} src="/assets/caecus.png" alt="Caecus Logo" className="md:w-1/3 pb-1" />
           <div className="ml-8 p-1">
@@ -34,7 +37,7 @@ const IndexPage = () => (
               Joshua
             </p>
             <p className="text-white mt-2 font-semibold">
-              Developer / Graphic Designer / Artist
+              Developer / UI Designer / Graphic Designer
             </p>
             <div className="flex text-white justify-start">
               <ul className="flex mt-3">

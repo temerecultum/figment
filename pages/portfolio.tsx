@@ -29,12 +29,12 @@ const IndexPage = () => (
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://teme.re" />
             {/* <script async defer data-website-id="94288e75-da3b-48a9-abb9-e878fe8c4028" src="https://stats.himbo.cat/umami.js"></script> */}
-            <meta property="og:description" content="Developer / Graphic Designer / Artist" />
+            <meta property="og:description" content="Developer / UI Designer / Graphic Designer" />
             <meta property="og:image" content="/assets/caecus.png" />
 
             <meta name="theme-color" content="#EE1B22" />
 
-            <meta name="description" content="Developer / Graphic Designer / Artist" />
+            <meta name="description" content="Developer / UI Designer / Graphic Designer" />
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:image" content="/assets/caecus.png" />
             <meta name="twitter:creator" content="@temerecultum" />
@@ -59,8 +59,6 @@ const IndexPage = () => (
                     })})
                 </div>
 
-
-                {/* <Lanyard /> */}
             </div>
         </body>
 

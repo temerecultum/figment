@@ -2,16 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter')
 
 body
-    background: url("/assets/background.jpg")
-    background-position: center
-    background-size: cover
     background-color: #EE1B22
     font-family: 'Monserrat', sans-serif
 
 .cae-bgblur
-    background: url("/assets/blurred_background.png")
+    background: url("/assets/blurred_background.png") no-repeat center center fixed
     // background: url("https://pbs.twimg.com/media/Ef7uDEVWoAAjHSP?format=jpg&name=large")
-    background-position: center
     background-size: cover
-    background-color: #EE1B22
+    // background-color: #EE1B22
     font-family: 'Inter', sans-serif
+
+.cae-overlay
+    position: absolute
+
+    width: 100%
+    height: 100%
+    display: inline-block
+
+    & > img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        object-position: center
+
+        mix-blend-mode: multiply
+        opacity: 1
+
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: rgba(238, 27, 34, 0.123)
+        // mix-blend-mode: exclusion
